@@ -22,6 +22,16 @@ Exploratory data analysis on 12 seasons of IPL match data using Python, Pandas, 
 5. **Eden Gardens** is the most used venue with 77 matches hosted
 6. **CH Gayle** is the top performer with 21 Player of the Match awards
 
+
+## Power BI Dashboard
+An interactive dashboard was built using the same dataset to make key insights accessible to non-technical stakeholders through visual, filterable charts.
+
+![Team Wins](team_wins.png)
+![Toss Decision](toss_decision.png)
+![Top Venues](top_venues.png)
+
+The full `.pbix` file (`IPL_Dashboard.pbix`) is included in this repository for interactive exploration.
+
 ## Project Structure
 IPL project/
 ├── archive/
@@ -29,6 +39,13 @@ IPL project/
 │   └── deliveries.csv
 ├── notebooks/
 │   └── ipl_analysis.ipynb
+├── IPL_Dashboard.pbix
+├── team_wins.png
+├── toss_decision.png
+├── top_venues.png
+├── top_analysis.png
+├── top_players.png
+├── season_matches.png
 └── README.md
 
 ## How to Run
@@ -36,3 +53,4 @@ IPL project/
 2. Install dependencies: `pip install pandas numpy matplotlib seaborn jupyter`
 3. Open `notebooks/ipl_analysis.ipynb` in Jupyter
 4. Run all cells
+5. Open `IPL_Dashboard.pbix` in Power BI Desktop to explore the interactive dashboard
